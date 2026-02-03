@@ -24,6 +24,7 @@
     <ProjectGuid>{bc1fc737-7d56-4cba-a6fe-f94d14aee4d0}</ProjectGuid>
     <RootNamespace>CLITest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>CLI</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
