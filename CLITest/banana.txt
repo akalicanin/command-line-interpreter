@@ -1,0 +1,2 @@
+date
+time >outt4.txt

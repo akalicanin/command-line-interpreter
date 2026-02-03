@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Reader">
+      <UniqueIdentifier>{1581b333-e5b2-4dad-b98b-cd13a01eb4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Reader">
+      <UniqueIdentifier>{9ea2c2fb-ccd0-417f-9e7e-978cec267f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands">
+      <UniqueIdentifier>{2193b964-866b-4e7c-836a-9abd8cecb0c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands">
+      <UniqueIdentifier>{41aa0ef0-d9c1-4076-bb9d-db8c82521585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parsers">
+      <UniqueIdentifier>{b32755a7-ca2a-4352-bfdc-1f55096e80f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parsers">
+      <UniqueIdentifier>{779cc07c-5c5e-4e19-b80e-08c04fec0248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stream">
+      <UniqueIdentifier>{21c60401-d0ae-4477-b525-d4d50c7c0f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stream">
+      <UniqueIdentifier>{33d20b1e-75e5-43a5-83b0-524343e58fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pipeline">
+      <UniqueIdentifier>{48936e75-3128-4166-9528-454592c09609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{89454fcb-a882-404f-bd39-cc581335620f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pipeline">
+      <UniqueIdentifier>{c0355475-2ec3-499b-b5b1-6b4f91a45c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{88178f7d-1a65-4731-9a37-e9119d40f6b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Reader.h">
+      <Filter>Header Files\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>Header Files\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleReader.h">
+      <Filter>Header Files\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Echo.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="EchoParser.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainParser.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandsList.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandData.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWriter.h">
+      <Filter>Header Files\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream.h">
+      <Filter>Header Files\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStream.h">
+      <Filter>Header Files\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="StringStream.h">
+      <Filter>Header Files\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleStream.h">
+      <Filter>Header Files\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Wc.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeCmd.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Touch.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="DateCmd.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeDateParser.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="TouchParser.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="WcParser.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorChecker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="PromptParser.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="Rm.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Truncate.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="TruncateParser.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="RmParser.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadParser.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="Head.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="TrParser.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tr.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="BatchParser.h">
+      <Filter>Header Files\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="Batch.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="PipeParser.h">
+      <Filter>Header Files\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="PipeChecker.h">
+      <Filter>Header Files\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandBuilder.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>Source Files\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleReader.cpp">
+      <Filter>Source Files\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="Echo.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="EchoParser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="MainParser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="FileWriter.cpp">
+      <Filter>Source Files\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStream.cpp">
+      <Filter>Source Files\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="StringStream.cpp">
+      <Filter>Source Files\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleStream.cpp">
+      <Filter>Source Files\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeCmd.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Touch.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="DateCmd.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeDateParser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="TouchParser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="WcParser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="Wc.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorChecker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="PromptParser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="Rm.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Truncate.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="RmParser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="TruncateParser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="Head.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadParser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="TrParser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="Tr.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="BatchParser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="Batch.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandBuilder.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="PipeParser.cpp">
+      <Filter>Source Files\Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="PipeChecker.cpp">
+      <Filter>Source Files\Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
