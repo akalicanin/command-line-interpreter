@@ -153,6 +153,7 @@
     <ClInclude Include="Prompt.h" />
     <ClInclude Include="PromptParser.h" />
     <ClInclude Include="Reader.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Rm.h" />
     <ClInclude Include="RmParser.h" />
     <ClInclude Include="Stream.h" />
@@ -204,6 +205,12 @@
     <ClCompile Include="TruncateParser.cpp" />
     <ClCompile Include="Wc.cpp" />
     <ClCompile Include="WcParser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="cli.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="programicon.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
