@@ -1,5 +1,7 @@
 # Command Line Interpreter
 
+[Download the program for Windows!](https://github.com/akalicanin/command-line-interpreter/releases)
+
 This is a command line interpreter. It is an object oriented project written in C++ in 2024-2025.
 The project contains three example text files you can use, more about them in the Examples section.
 
@@ -85,13 +87,13 @@ You have an example batch file provided: commands.txt
 The repository comes with three files:  
 - input.txt
 - commands.txt
-- files/input.txt
+- files/text/input.txt
 
-input.txt and files/input.txt are regular text files you can test using the echo command.
+input.txt and files/text/input.txt are regular text files you can test using the echo command.
 
 ```
 echo input.txt
-echo files/input.txt
+echo files/text/input.txt
 ```
 
 commands.txt is a batch file that creates a file called test.txt in your project folder, writes something into it, and then ends with an intentional error: non-existing command.  
